@@ -9,16 +9,30 @@ while (i < 3) {
   i++;
 }
 ```
+hi hi hi
 
 3. Write a function named `getEvenSum` that accepts a parameter `max`. Return the sum of all even numbers. The value of max should default to 10.
-
+let sum = 0
+function getEvenSum(max=10){
+  for (i=1; i<=max; i++){
+    if(i%2==0){
+        sum += i
+    }
+  }
+}
 4. Write a function named `getOddSum` that accepts a parameter `max`. Return the sum of all odd numbers. The value of max should default to 10.
 
 5. Write a function named `getProductOfDigits` that accepts a parameter `num`. It returns the product of all the digits in the number.
 
 - If the input value is less than 0 return `not a valid input`
 - For example if the input is `123` output should be `6`.
-
+funtion getProductofDigits(num){
+  let product = 1
+    if(i==0; i <= num.length; i++){
+      product *= num[i]
+    }
+    return product
+}
 6. What will be the output of the following code below in multiple conditions? Explain with reason?
 
 ```js
@@ -34,9 +48,9 @@ function check(num) {
   return num;
 }
 
-check(10); // output
-check(1); // output
-check(5); // output
+check(10); // output bigger than 5
+check(1); // output  sm than 5
+check(5); // output  5
 ```
 
 7. What will be the output of the following code given below? Explain the reason?
@@ -50,7 +64,7 @@ function getOutput(name) {
 
 getOutput('Arya'); // what will be the output
 getOutput('John'); // what will be the output
-getOutput(); // what will be the output
+getOutput(); // what will be the output undefined
 ```
 
 8. What will be the output of the following code given below? Explain the reason?
@@ -64,9 +78,10 @@ function getOutput(name) {
 
 getOutput('Arya'); // what will be the output
 getOutput('John'); // what will be the output
-getOutput(); // what will be the output
+getOutput(); // what will be the output who are you
 ```
 
 9. Can a function have multiple return statement? Give one example if possible and explain the reason.
 
 10. What is the difference between `for` loop and `while` loop. What are the different place you can use them? Explain with example.
+for loop  is udes when we have a definite range, whereas while loop is used when steps should be repeated until a condition is satisfied
