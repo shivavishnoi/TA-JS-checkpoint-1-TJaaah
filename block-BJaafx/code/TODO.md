@@ -62,9 +62,9 @@ function getOutput(name) {
   return 'Who are you';
 }
 
-getOutput('Arya'); // what will be the output
-getOutput('John'); // what will be the output
-getOutput(); // what will be the output undefined
+getOutput('Arya'); // what will be the output arya
+getOutput('John'); // what will be the output john 
+getOutput(); // what will be the output undefined who ar u
 ```
 
 8. What will be the output of the following code given below? Explain the reason?
@@ -82,6 +82,15 @@ getOutput(); // what will be the output who are you
 ```
 
 9. Can a function have multiple return statement? Give one example if possible and explain the reason.
+a funtion can use only one return statemen, but within conditions we can give multiple return statement
+function a(){
+  if(true){
+    return true
+  }
+  else{
+    return false
+  }
+}
 
 10. What is the difference between `for` loop and `while` loop. What are the different place you can use them? Explain with example.
-for loop  is udes when we have a definite range, whereas while loop is used when steps should be repeated until a condition is satisfied
+for loop  is used when we have a definite range, whereas while loop is used when steps should be repeated until a condition is satisfied
