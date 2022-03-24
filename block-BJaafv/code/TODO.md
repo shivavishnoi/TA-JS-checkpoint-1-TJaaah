@@ -10,12 +10,14 @@ function sum(a, b) {
 function sum(a, b) {
   console.log(a + b);
 }
+// first return the output which can be stored in a variable
+// second function logs the value in the console and returns undefined
 ```
 console.log is used to print variables and string and dosent break usual flow of functions whereas return is used to return value from a function and stops function execution
 2. If we store the returned value of both functions above in variable `first` and `second` what will be the value of `first` and `second`.
 30 and undefined
 3. What will be the output when you call above `sum` function (first) with three parameter like `sum(12, 24, 35)`. Explain why?
-  NaN
+  NaN, because third parameter doesntexist
 4. Can you store the first `sum` function in a variable named `add`. If yes why? If no why?
 yes, functions are expression in js
 5. Declare a function named `sayHello` the accepts a parameter `name` and returns the name like `Hello Arya`.
@@ -76,3 +78,5 @@ Function starting with…
 "check…" – check something and return a boolean, etc.
 ```
 camelcase, start with verb, not an language keyword, start with alphabets only
+
+<!-- done -->
